@@ -106,7 +106,7 @@ header {
   border-bottom: 1px solid black;
 }
 
-.header_address {
+.header__address {
   display: flex;
   flex-direction: row;
   justify-self: end;
@@ -332,8 +332,8 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: 276px;
-  padding-top: 34px;
+  padding-top: 132px;
+  padding-bottom: 98px;
   font-family: Raleway, sans-serif;
   color: #000000;
   font-weight: 700;
@@ -384,4 +384,7 @@ header {
 .footer__social-list-item {
   display: flex;
   justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
